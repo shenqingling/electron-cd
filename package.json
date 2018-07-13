@@ -1,10 +1,28 @@
 {
-  "name": "electron-quick-start",
+  "name": "CHYETH-PLATFORM",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "知氏课程与实践资源平台",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager ./ CHYETH PLATFORM --all --icon=./icon.png",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "productName": "知氏课程与实践资源平台",
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type",
+      "icon": "./icon.png"
+    },
+    "dmg": {
+    },
+    "win": {
+      "target": "appx",
+      "icon": "./icon.png"
+    },
+    "appx": {
+    }
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +35,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-builder": "^20.19.2",
+    "electron-packager": "^12.1.0"
   }
 }
