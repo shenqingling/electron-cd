@@ -18,22 +18,27 @@
     "dmg": {
     },
     "win": {
-      "target": "appx",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
       "icon": "./icon.png"
     },
     "appx": {
     }
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "chyeth",
+    "electron"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "知式教育",
+  "license": "",
   "devDependencies": {
     "electron": "^2.0.0",
     "electron-builder": "^20.19.2",
