@@ -15,33 +15,26 @@
       "category": "your.app.category.type",
       "icon": "./icon.png"
     },
-    "dmg": {
-    },
+    "dmg": {},
     "win": {
       "target": [
         {
           "target": "nsis",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
+          "arch": ["x64", "ia32"]
         }
       ],
       "icon": "./icon.png"
     },
-    "appx": {
-    }
+    "appx": {}
   },
   "repository": "",
-  "keywords": [
-    "chyeth",
-    "electron"
-  ],
+  "keywords": ["chyeth", "electron"],
   "author": "知式教育",
   "license": "",
   "devDependencies": {
     "electron": "^2.0.0",
     "electron-builder": "^20.19.2",
-    "electron-packager": "^12.1.0"
+    "electron-packager": "^12.1.0",
+    "path": "^0.12.7"
   }
 }
