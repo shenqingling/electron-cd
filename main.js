@@ -19,7 +19,7 @@ function createWindow() {
 
   // and load the index.html of the app.
   // mainWindow.loadFile('index.html')
-  mainWindow.loadURL('https://app.chyeth.com');
+  mainWindow.loadURL('https://www.chyeth.com');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
